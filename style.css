@@ -1,0 +1,145 @@
+* {
+font-size: 3vw;
+font-family: "Montserrat", Google Fonts;
+}
+
+.navigate {
+margin: 10px;
+text-align: right;
+}
+
+button {
+border: none;
+cursor: pointer;
+background-color: white;
+}
+
+.active {
+color: #FF6800;
+}
+
+.non-active {
+opacity: 50%;
+}
+
+.hidden {
+display: none;
+}
+
+.cardsComponent {
+max-height: 100%;
+display: flex;
+border-radius: 3px;
+border: 2px solid #A9A9A9;
+flex-direction: column;
+padding: 5%;
+}
+
+.textFont {
+display: flex;
+width: 100%;
+justify-content: center;
+}
+
+.squares {
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+
+.squares > div {
+width: 50%;
+}
+
+.borderStyle {
+border: 1px solid black;
+padding: 2px;
+}
+
+.borderStyleFrame {
+border-radius: 2vw;
+}
+
+.borderSizeGreenSquare {
+width: 15vw;
+aspect-ratio: 1;
+}
+
+.size {
+width: 100%;
+height: 100%;
+}
+
+.greenSquare {
+background-color: green;
+position: relative;
+}
+
+.letters {
+color: rgba(255, 255, 255, 0.3);
+position: absolute;
+bottom: 1vw;
+left: 1vw;
+}
+
+.radioButton {
+width: 140px;
+margin-top: 5%;
+margin-left: -5px;
+}
+
+.textPosition {
+display: flex;
+align-items: center;
+}
+
+.text {
+margin-top: -7vw;
+margin-right: 7px;
+}
+
+.squaresComponent {
+display: flex;
+flex-direction: row;
+}
+
+.twoSquares {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.borderSizeSquares {
+width: 11vw;
+aspect-ratio: 1;
+flex-shrink: 0;
+}
+
+.pinkSquare {
+background-color: #FF69B4;
+position: relative;
+}
+
+.blueSquare {
+background-color: blue;
+position: relative;
+}
+
+.radioButtons {
+margin-left: 4%;
+}
+
+input.less {
+margin-top: -3vw;
+}
+
+input[type=radio]:checked  + label{
+opacity: 50%;
+} 
+
+@media screen and (max-width: 450px) {
+.text {
+margin-top: -3vw;
+}
+}
+
